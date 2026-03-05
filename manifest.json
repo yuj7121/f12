@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "A2",
+  "name": "F12",
   "permissions": ["storage"],
   "version": "1.0",
   "action": {
@@ -15,5 +15,5 @@
   "icons": {
   },
 
-  "description": "CS 383 A2 Project"
+  "description": "Welcome to the Internet! Have a look around :)"
 }
