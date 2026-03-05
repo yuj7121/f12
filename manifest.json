@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "A2",
+  "permissions": ["storage"],
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>", "http://*/*", "https://*/*"],
+      "js": ["main.js", "lib/p5.min.js", "lib/p5.gui.js", "lib/quicksettings.js", "lib/utilities.js","sketch.js"]
+    }
+  ],
+  "icons": {
+  },
+
+  "description": "CS 383 A2 Project"
+}
